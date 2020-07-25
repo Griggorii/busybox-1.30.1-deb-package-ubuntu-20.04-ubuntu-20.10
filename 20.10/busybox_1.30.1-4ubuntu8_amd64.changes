@@ -1,0 +1,60 @@
+Format: 1.8
+Date: Wed, 20 May 2020 14:44:54 +0100
+Source: busybox
+Binary: busybox busybox-initramfs busybox-static busybox-syslogd busybox-udeb udhcpc udhcpd
+Architecture: amd64 all
+Version: 1:1.30.1-4ubuntu8
+Distribution: groovy
+Urgency: medium
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Changed-By: Dimitri John Ledkov <xnox@ubuntu.com>
+Description:
+ busybox    - Tiny utilities for small and embedded systems
+ busybox-initramfs - Standalone shell setup for initramfs
+ busybox-static - Standalone rescue shell with tons of builtin utilities
+ busybox-syslogd - Provides syslogd and klogd using busybox
+ busybox-udeb - Tiny utilities for the debian-installer (udeb)
+ udhcpc     - Provides the busybox DHCP client implementation
+ udhcpd     - Provides the busybox DHCP server implementation
+Launchpad-Bugs-Fixed: 1879533
+Changes:
+ busybox (1:1.30.1-4ubuntu8) groovy; urgency=medium
+ .
+   * Enable TLS verification with OpenSSL. LP: #1879533
+Checksums-Sha1:
+ dd6b92cf36efa573d69a40636eba3754e46161f6 1749304 busybox-dbgsym_1.30.1-4ubuntu8_amd64.ddeb
+ 4de2712c8406f182d65d45eaa6c3487fd05dad99 800220 busybox-initramfs-dbgsym_1.30.1-4ubuntu8_amd64.ddeb
+ b9b0773f6008b7e3b7a24aedbe6245ffd002eb9a 199000 busybox-initramfs_1.30.1-4ubuntu8_amd64.deb
+ 9e1259a55d1d9fe05b18bd881ba0c94b3a0ffd9d 1961464 busybox-static-dbgsym_1.30.1-4ubuntu8_amd64.ddeb
+ e42645bd2c12b5a96712be95b7b5897129aed8d5 978832 busybox-static_1.30.1-4ubuntu8_amd64.deb
+ e20b599631e3278b71080a20bf5295267761af4f 36432 busybox-syslogd_1.30.1-4ubuntu8_all.deb
+ 32ac165c62836e972d88518fea292ebf160cea42 173032 busybox-udeb_1.30.1-4ubuntu8_amd64.udeb
+ 9af5eb5f4a265386d60a37fab6b06228e4d8ba8e 8587 busybox_1.30.1-4ubuntu8_amd64.buildinfo
+ 8bfed514a6a49c9b96f400740df93f5bb486ab1b 444728 busybox_1.30.1-4ubuntu8_amd64.deb
+ 5cf457cd664088303f20d2758ca9d5b8c815c864 34640 udhcpc_1.30.1-4ubuntu8_amd64.deb
+ 6f05f010ed2d07553512f750461701f094c9aef3 37376 udhcpd_1.30.1-4ubuntu8_amd64.deb
+Checksums-Sha256:
+ 2d47e45af728797e4d68cbc916ecb1d14fe1ebb27ca8eda43ed6910a1a00fc3b 1749304 busybox-dbgsym_1.30.1-4ubuntu8_amd64.ddeb
+ db8a9c68933f6fbc05f78d37476d599b74063b1a0899205594e3b5efdef371d8 800220 busybox-initramfs-dbgsym_1.30.1-4ubuntu8_amd64.ddeb
+ d5035cc0e92ca4ce068ede22e6ce1e38aa2986cfedec97c53dc2d6ffc8d860a0 199000 busybox-initramfs_1.30.1-4ubuntu8_amd64.deb
+ 4cc2e28e8930d9cf13c62caba68c2ece4963c0072b4593efe9376f19d0246567 1961464 busybox-static-dbgsym_1.30.1-4ubuntu8_amd64.ddeb
+ 8036dc4fc81a411ae64ae6b4902958892c23edd4de87e48ff750d862e8e241d7 978832 busybox-static_1.30.1-4ubuntu8_amd64.deb
+ 5976946105a16ab720967a9341e7e8ff097b5096b97d3267b8aefbdb9d506e89 36432 busybox-syslogd_1.30.1-4ubuntu8_all.deb
+ 668e7b919e7ed22cf5794bd15853ab433bc367a6757135f61d7ebcc5bdacc1d7 173032 busybox-udeb_1.30.1-4ubuntu8_amd64.udeb
+ d353fe62f8492422bce3c09102192013954ea6971be4da11be5973cde991013e 8587 busybox_1.30.1-4ubuntu8_amd64.buildinfo
+ f0f15dc76a1363eefc402acc440fdb8f186dff5d646917e6e30b41df1323db05 444728 busybox_1.30.1-4ubuntu8_amd64.deb
+ afc53d7396d41739e34d8469ce56ecf700621fbc221d297fa15f2324c0fc281d 34640 udhcpc_1.30.1-4ubuntu8_amd64.deb
+ 06c4b961bfed6aede69f29cc9e92891857e8f29adc448ea4f6d39012fbf6f1db 37376 udhcpd_1.30.1-4ubuntu8_amd64.deb
+Files:
+ dbbc8abb6be646ce5e3c44b92bbac4e4 1749304 debug optional busybox-dbgsym_1.30.1-4ubuntu8_amd64.ddeb
+ e9284888e1d16f26e14418796478e78e 800220 debug optional busybox-initramfs-dbgsym_1.30.1-4ubuntu8_amd64.ddeb
+ e44374a5e4cde51a6e45ddc11a09739f 199000 shells optional busybox-initramfs_1.30.1-4ubuntu8_amd64.deb
+ 922f4145672749dcba6f744c7ad67375 1961464 debug optional busybox-static-dbgsym_1.30.1-4ubuntu8_amd64.ddeb
+ 006bcb024fd4acc6b0518cf5435690e7 978832 shells optional busybox-static_1.30.1-4ubuntu8_amd64.deb
+ acc84d63e7a4024bb8e2bd851cad8992 36432 utils optional busybox-syslogd_1.30.1-4ubuntu8_all.deb
+ 8adce2de9b5be1cc836f53af63dad64d 173032 debian-installer optional busybox-udeb_1.30.1-4ubuntu8_amd64.udeb
+ e5b861b1e5d63e6efe20e15a85f3c12d 8587 utils optional busybox_1.30.1-4ubuntu8_amd64.buildinfo
+ 1e26189eb1e93ad8a2cb08586d66823d 444728 utils optional busybox_1.30.1-4ubuntu8_amd64.deb
+ c0be7b87229082b826ac365430c92020 34640 net optional udhcpc_1.30.1-4ubuntu8_amd64.deb
+ 448272ecaf34b3e25b039207f38d2afa 37376 net optional udhcpd_1.30.1-4ubuntu8_amd64.deb
+Original-Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
